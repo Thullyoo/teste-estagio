@@ -11,8 +11,8 @@ public class Number2 {
     int b = 1;
     int valoratual = a + b;
 
-    if (numeroentrada == 1 || numeroentrada == b){
-        System.out.println("O valor :" + numeroentrada + " está na sequência Fibonnaci");
+    if (numeroentrada == a || numeroentrada == b){
+        System.out.println("O valor : " + numeroentrada + " está na sequência Fibonnaci");
         return;
     }
 
